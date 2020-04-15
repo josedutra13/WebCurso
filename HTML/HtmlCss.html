@@ -1,0 +1,10 @@
+<!DOCTYPE html><html> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width"> <title>Exercicios HTML</title> <link href="style.css" rel="stylesheet" type="text/css" /> </head> <body> <header> Exercicios </header><br> <nav> <a href="exercicios/teste.html">CLIQUE AQUI</a> | <a href="exercicios/temp.html">TEEEEMMMPPP</a> </nav> <section id="conteudo" ></section><br> <footer> Curso WebMorderno </footer> <script src="script.js"></script> <script> document.querySelectorAll('a').forEach(link => { link.onclick = function(e){ e.preventDefault()//vai previnir o evento padrão const conteudo = document.getElementById('conteudo') fetch(link.href) .then(resp => resp.text()) .then(html => conteudo.innerHTML= html) } }) </script> </body></html>
+
+
+
+
+
+
+
+
+Pasta ExercicioTeste<h3>Outro link</h3>Temp<h1>WORKED </h1>
