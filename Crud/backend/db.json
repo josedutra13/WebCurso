@@ -1,11 +1,6 @@
 {
   "products": [
     {
-      "id": 3,
-      "name": "Sansung s20 plus",
-      "price": "7000.22"
-    },
-    {
       "name": "Xiaomi Note 7",
       "price": "1397.80",
       "id": 4
@@ -34,6 +29,11 @@
       "name": "Monitor Dell 20",
       "price": "1300.5",
       "id": 9
+    },
+    {
+      "name": "Xiaomi Note 9",
+      "price": "10.000",
+      "id": 10
     }
   ]
 }
